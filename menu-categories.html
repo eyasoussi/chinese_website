@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -184,4 +185,192 @@
 <script src="\bootstrap\js\jquery.min.js"></script>
 <script src="\bootstrap\js\bootstrap.min.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Menu Categories</title>
+<link rel="stylesheet" href="\bootstrap\css\bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="chinese.css">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet"> <!-- importina font "oxygen" men google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head> 
+<body>
+<header>
+	<nav id="header-nav" class="navbar navbar-expand-md navbar-dark bg-yellow"> <!-- .navbar : to turn the navbar controlled and styled by bootstrap -->
+		<div class="container">
+			<div class="navbar-header"> <!-- The navbar-header is mostly an architectural class for Bootstrap navbar. It allocates approximately 150px to the left of the navbar to wrap the navbar-brand and allow the brand name or logo to make use of the sentire area on click or hover. -->
+				<a href="chinese.html" class="float-left d-none d-md-block "> <div id="logo-img" alt="logo image"></div> </a>	
+				<!-- .d-none d-md-block hidden only for small devices -->
+				<!-- float-left is a bootstrap class ; tekhdem nafs khedmet float left-->
+				<div class="navbar-brand"> <!-- .navbar-brand : ya bootstrap div hedhi nhebha nicely positioned in the top left corner of the navigation bar (in our case aamalna float left donc walet baad l lossgo)-->
+            		<a href="chinese.html"><h1>David Chu's China Bistro</h1></a>
+            		<p>
+             			<img src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture30/after/images/star-k-logo.png" alt="Kosher certification">
+              			<span>Kosher Certified</span>
+            		</p>
+          		</div>
+        	</div>  
+        	<button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#navbarMenu">
+          				<!-- navbar-toggle : this class controls the positioning of this whole button -->
+            			<!-- sr-only Hide an element to all devices except screen readers -->
+            			<span class="navbar-toggler-icon"></span> <!-- -->
+          	</button>
+        	<div class="collapse navbar-collapse" id="navbarMenu">
+          			<ul id="#nav-list" class="navbar-nav ml-auto"> <!-- move left selon div eli f star eli kbal -->
+          				<li class=" active nav-item"><a href="menu-categories.html" class="nav-link"><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-egg-fried" viewBox="0 0 16 16">
+  						<path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+  						<path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"/></svg></span> <br class="d-none d-md-block"> Menu </a></li>
+
+          				<li class="nav-item"><a href="#" class="nav-link"><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-info-circle-fill " viewBox="0 0 16 16">
+  						<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg></span><br class="d-none d-md-block"> About </a></li>
+
+          				<li class="nav-item"><a href="#" class="nav-link"><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+  						<path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+  						<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+						</svg></span><br class="d-none d-md-block"> Awards </a></li>
+
+						<li id="phone" class="d-none d-md-block"><a href="tel:410-602-5008"><span>410-602-5008</span></a><div>* We Deliver</div></li>
+          			</ul>
+          	</div>
+		</div>
+	</nav>
+</header>
+<div id="call-btn" class="d-block d-md-none">
+    <a class="btn" href="tel:410-602-5008">
+    <span ><svg style="margin-bottom: 7px" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-headphones" viewBox="0 0 16 16">
+  		  <path d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5z"/></svg></span>
+    410-602-5008
+    </a>
+</div>
+<div id="xs-deliver" class="text-center d-block d-md-none">* We Deliver </div>
+
+<div id="main-content" class="container">
+  <h2 id="menu-categories-title" class="text-center">Menu Categories</h2>
+  <div class="text-center">
+      Substituting white rice with brown rice or fried rice after 3:00pm will be $1.50 for a pint and $2.50 for a quart.
+  </div>
+  <section class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="single-categorie.html">
+          <div id="category-title" style="position: relative ;border: 2px solid #3F0C1F; overflow: hidden; /* overflow:hidden prevents scrollbars from showing up */width: 200px ; height: 200px;margin: 0 auto 15px;">
+              <img width="200" height="200" src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B-1.jpg" alt="Lunch">
+                <span style="position: absolute; bottom: 0 ;right: 0;width: 100%;text-align: center;font-size: 1.2em;text-transform: uppercase;background-color: #000;color: #fff;opacity: .8;">Lunch</span>
+          </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="single-categorie.html"> <!-- single-category.html-->
+          <div id="category-title" style="position: relative ;border: 2px solid #3F0C1F; overflow: hidden; /* overflow:hidden prevents scrollbars from showing up */width: 200px ; height: 200px;margin: 0 auto 15px;">
+              <img width="200" height="200" src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B-1.jpg" alt="Lunch">
+                <span style="position: absolute; bottom: 0 ;right: 0;width: 100%;text-align: center;font-size: 1.2em;text-transform: uppercase;background-color: #000;color: #fff;opacity: .8;">Lunch</span>
+          </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="single-categorie.html">
+          <div id="category-title" style="position: relative ;border: 2px solid #3F0C1F; overflow: hidden; /* overflow:hidden prevents scrollbars from showing up */width: 200px ; height: 200px;margin: 0 auto 15px;">
+              <img width="200" height="200" src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B-1.jpg" alt="Lunch">
+                <span style="position: absolute; bottom: 0 ;right: 0;width: 100%;text-align: center;font-size: 1.2em;text-transform: uppercase;background-color: #000;color: #fff;opacity: .8;">Lunch</span>
+          </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="single-categorie.html">
+          <div id="category-title" style="position: relative ;border: 2px solid #3F0C1F; overflow: hidden; /* overflow:hidden prevents scrollbars from showing up */width: 200px ; height: 200px;margin: 0 auto 15px;">
+              <img width="200" height="200" src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B-1.jpg" alt="Lunch">
+                <span style="position: absolute; bottom: 0 ;right: 0;width: 100%;text-align: center;font-size: 1.2em;text-transform: uppercase;background-color: #000;color: #fff;opacity: .8;">Lunch</span>
+          </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="single-categorie.html">          
+          <div id="category-title" style="position: relative ;border: 2px solid #3F0C1F; overflow: hidden; /* overflow:hidden prevents scrollbars from showing up */width: 200px ; height: 200px;margin: 0 auto 15px;">
+              <img width="200" height="200" src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B-1.jpg" alt="Lunch">
+                <span style="position: absolute; bottom: 0 ;right: 0;width: 100%;text-align: center;font-size: 1.2em;text-transform: uppercase;background-color: #000;color: #fff;opacity: .8;">Lunch</span>
+          </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="single-categorie.html">
+          <div id="category-title" style="position: relative ;border: 2px solid #3F0C1F; overflow: hidden; /* overflow:hidden prevents scrollbars from showing up */width: 200px ; height: 200px;margin: 0 auto 15px;">
+              <img width="200" height="200" src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B-1.jpg" alt="Lunch">
+                <span style="position: absolute; bottom: 0 ;right: 0;width: 100%;text-align: center;font-size: 1.2em;text-transform: uppercase;background-color: #000;color: #fff;opacity: .8;">Lunch</span>
+          </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="single-categorie.html">
+          <div id="category-title" style="position: relative ;border: 2px solid #3F0C1F; overflow: hidden; /* overflow:hidden prevents scrollbars from showing up */width: 200px ; height: 200px;margin: 0 auto 15px;">
+              <img width="200" height="200" src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B-1.jpg" alt="Lunch">
+                <span style="position: absolute; bottom: 0 ;right: 0;width: 100%;text-align: center;font-size: 1.2em;text-transform: uppercase;background-color: #000;color: #fff;opacity: .8;">Lunch</span>
+          </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="single-categorie.html" >
+          <div id="category-title" style="position: relative ;border: 2px solid #3F0C1F; overflow: hidden; /* overflow:hidden prevents scrollbars from showing up */width: 200px ; height: 200px;margin: 0 auto 15px;">
+              <img width="200" height="200" src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B-1.jpg" alt="Lunch">
+                <span style="position: absolute; bottom: 0 ;right: 0;width: 100%;text-align: center;font-size: 1.2em;text-transform: uppercase;background-color: #000;color: #fff;opacity: .8;">Lunch</span>
+          </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="single-categorie.html">
+          <div id="category-title" style="position: relative ;border: 2px solid #3F0C1F; overflow: hidden; /* overflow:hidden prevents scrollbars from showing up */width: 200px ; height: 200px;margin: 0 auto 15px;">
+              <img width="200" height="200" src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B-1.jpg" alt="Lunch">
+                <span style="position: absolute; bottom: 0 ;right: 0;width: 100%;text-align: center;font-size: 1.2em;text-transform: uppercase;background-color: #000;color: #fff;opacity: .8;">Lunch</span>
+          </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="single-categorie.html">
+          <div id="category-title" style="position: relative ;border: 2px solid #3F0C1F; overflow: hidden; /* overflow:hidden prevents scrollbars from showing up */width: 200px ; height: 200px;margin: 0 auto 15px;">
+              <img width="200" height="200" src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B-1.jpg" alt="Lunch">
+                <span style="position: absolute; bottom: 0 ;right: 0;width: 100%;text-align: center;font-size: 1.2em;text-transform: uppercase;background-color: #000;color: #fff;opacity: .8;">Lunch</span>
+          </div>
+        </a>
+    </div>
+
+
+
+  </section>
+
+</div>
+
+<!-- .panel class adds a 16px top and bottom margin and a 16px left and right padding to any HTML element -->
+<footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="d-block d-sm-none">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          7105 Reisterstown Road<br>
+          Baltimore, MD 21215
+          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <hr class="d-block d-sm-none">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
+    </div>
+</footer>
+
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+<script src="\bootstrap\js\jquery.min.js"></script>
+<script src="\bootstrap\js\bootstrap.min.js"></script>
+</body>
+>>>>>>> 639a5eca383534046abe3ef75e83d5a3d1998a1d
 </html>	
